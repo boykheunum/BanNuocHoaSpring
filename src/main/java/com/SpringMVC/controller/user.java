@@ -17,17 +17,17 @@ import com.SpringMVC.model.Products;
 @RequestMapping(value = "home")
 public class user {
 
-	@Autowired
-	ProductInterface interfaceProduct;
+  @Autowired
+  ProductInterface interfaceProduct;
 
-	@RequestMapping(value = "", method = RequestMethod.GET)
-	public ModelAndView home(Model model, Products productsModel) {
-		List<Products> listProducts = new ArrayList<Products>();
-		listProducts = interfaceProduct.ListProduct();
-		model.addAttribute("listProducts",listProducts);
-		ModelAndView mView = new ModelAndView("user/home");
-		return mView;
-	}
+  @RequestMapping(value = "", method = RequestMethod.GET)
+  public ModelAndView home(Model model, Products productsModel) {
+    List<Products> listProducts = new ArrayList<Products>();
+    listProducts = interfaceProduct.ListProduct();
+    model.addAttribute("listProducts", listProducts);
+    ModelAndView mView = new ModelAndView("user/home");
+    return mView;
+  }
 
 
 }

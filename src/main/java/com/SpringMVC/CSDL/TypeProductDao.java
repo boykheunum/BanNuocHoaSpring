@@ -20,7 +20,7 @@ public class TypeProductDao implements TypeProductInterface {
 	
 	public List<TypeProduct> ListTypeProduct() {
 		// TODO Auto-generated method stub
-		String sqlString ="SELECT * FROM `type_products`";
+		String sqlString ="SELECT * FROM `typeproduct`";
 		List<TypeProduct>listTypeProducts = new ArrayList<TypeProduct>();
 		listTypeProducts = jdbcTemplate.query(sqlString, new TypeProductMapper());
 		return listTypeProducts;
