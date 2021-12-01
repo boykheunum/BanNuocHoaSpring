@@ -18,7 +18,7 @@
 				path="id_type_product">
 				
 				<c:forEach var="item" items="${listTypeProducts}">
-					<form:option value="${item.getId_type_product() }" />
+					<form:option value="${item.getId_type_product() }" >${item.getTypeProduct() }</form:option>
 				</c:forEach>
 			</form:select>
 		</div>

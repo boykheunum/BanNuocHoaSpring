@@ -11,6 +11,10 @@ public class TypeProduct {
 		this.id_type_product = id_type_product;
 		this.typeProduct = typeProduct;
 	}
+	   public TypeProduct(String typeProduct) {
+	        super();
+	        this.typeProduct = typeProduct;
+	    }
 	public int getId_type_product() {
 		return id_type_product;
 	}

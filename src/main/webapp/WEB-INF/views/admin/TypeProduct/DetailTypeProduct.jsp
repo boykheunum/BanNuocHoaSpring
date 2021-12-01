@@ -12,7 +12,7 @@
 	<table class="table table-dark table-hover">
 		<tr class="table-dark">
 			<td class="table-dark">Id type products</td>
-			<td class="table-dark">Name product</td>
+			<td class="table-dark">Name type product</td>
 			<td class="table-dark"></td>
 		</tr>
 		<c:forEach var="item" items="${listTypeProducts }">
@@ -20,9 +20,9 @@
 				<td class="table-dark">${item.getId_type_product() }</td>
 				<td class="table-dark">${item.getTypeProduct() }</td>
 				<td class="table-dark"><a
-					href="deleteproduct?id=${item.getId_type_product()}"><i
+					href="deletetypeproduct?id=${item.getId_type_product()}"><i
 						class="fas fa-trash"></i></a>|<a
-					href="editproduct?id=${item.getId_type_product()}"><i
+					href="viewedittypeproduct?id=${item.getId_type_product()}"><i
 						class="fas fa-edit"></i></a></td>
 			</tr>
 		</c:forEach>

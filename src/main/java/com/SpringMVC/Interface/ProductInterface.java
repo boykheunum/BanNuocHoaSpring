@@ -11,6 +11,7 @@ public interface ProductInterface {
 	int UploadFile(MultipartFile file, String path);
 	int AddProduct(Products productsModel);
 	int DeleteProduct(int idProduct);
+	int DeleteProductByTypeId(int idTypeProduct);
 	int EditProduct(int idProduct, Products productsModel);
 	Products SearchProductById(int idProduct, Products productsModel);
 }
