@@ -126,8 +126,8 @@
                         <div class="collapse" id="collapseLayouts3" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="admin/">Add information shop</a>
-                                <a class="nav-link" href="layout-sidenav-light.html">Detail information shop</a>
+                                <a class="nav-link" href="viewaddinfomationshop">Add information shop</a>
+                                <a class="nav-link" href="detailshop">Detail information shop</a>
                             </nav>
                         </div>
 

@@ -39,6 +39,5 @@
 			</tr>
 		</c:forEach>
 	</table>
-	<fieldset>
 </body>
 </html>
