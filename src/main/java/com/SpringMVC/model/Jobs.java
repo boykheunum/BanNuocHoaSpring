@@ -1,53 +1,42 @@
 package com.SpringMVC.model;
 
 public class Jobs {
-  private int id_shop;
-  private String adress;
-  private String name;
-  private String phonenumber;
+  private int id_job;
+ 
+  private String name_job;
+  
 
   public Jobs() {
     super();
   }
 
-  public Jobs(int id_shop, String adress, String name, String phonenumber) {
+  public Jobs(int id_Job,String name_job) {
     super();
-    this.id_shop = id_shop;
-    this.adress = adress;
-    this.name = name;
-    this.phonenumber = phonenumber;
+    this.id_job = id_Job;
+    this.name_job = name_job;
+    
   }
 
-  public int getId_shop() {
-    return id_shop;
+  public int getId_job() {
+    return id_job;
   }
 
-  public void setId_shop(int id_shop) {
-    this.id_shop = id_shop;
+  public void setId_job(int id_job) {
+    this.id_job = id_job;
   }
 
-  public String getAdress() {
-    return adress;
+  public String getName_job() {
+    return name_job;
   }
 
-  public void setAdress(String adress) {
-    this.adress = adress;
+  public void setName_job(String name_job) {
+    this.name_job = name_job;
   }
 
-  public String getName() {
-    return name;
+  public Jobs(String name_job) {
+    super();
+    this.name_job = name_job;
   }
 
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public String getPhonenumber() {
-    return phonenumber;
-  }
-
-  public void setPhonenumber(String phonenumber) {
-    this.phonenumber = phonenumber;
-  }
 
 }
